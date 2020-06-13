@@ -1,6 +1,6 @@
 {
   "name": "@remy/passwordless-mongostore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MongoDB TokenStore for Passwordless",
   "main": "index.js",
   "scripts": {
@@ -21,19 +21,23 @@
     "node-uuid": "^1.4.1",
     "passwordless-tokenstore-test": "^0.1.3"
   },
-  "author": "Florian Heinemann <florian.heinemann@gmail.com> (http://twitter.com/thesumofall)",
+  "contributors": [
+    "Florian Heinemann <florian.heinemann@gmail.com> (https://twitter.com/thesumofall)",
+    "Remy Sharp <remy@leftlogic.com> (https://remysharp.com)"
+  ],
   "license": "MIT",
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/florianheinemann/passwordless-mongostore.git"
+    "url": "git+https://github.com/remy/passwordless-mongostore.git"
   },
   "bugs": {
-    "url": "https://github.com/florianheinemann/passwordless-mongostore/issues"
+    "url": "https://github.com/remy/passwordless-mongostore/issues"
   },
-  "homepage": "https://github.com/florianheinemann/passwordless-mongostore",
+  "homepage": "https://github.com/remy/passwordless-mongostore",
   "keywords": [
     "passwordless",
     "mongo",
@@ -42,5 +46,6 @@
     "no-password",
     "password-less",
     "tokenstore"
-  ]
+  ],
+  "author": "Florian Heinemann <florian.heinemann@gmail.com> (https://twitter.com/thesumofall)"
 }
